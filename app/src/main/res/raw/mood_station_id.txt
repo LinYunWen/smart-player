@@ -1,0 +1,12 @@
+{
+"Work Out": "StGZp2ToWq92diPHS7",
+"Party Animal": "CqKi7kny7nlTW42w5M",
+"Relaxing": "CmJ_Y5mRTWygkTXsYl",
+"Working Time": "TZZ4fMCHdJNYqHEf-p",
+"Romantic": "4tmrBI125HMtMlO9OF",
+"Vacation": "8oxjHzAAeM8PU8KCw5",
+"Chill Out": "HXvnvb5yEReQJAiNMB",
+"Tipsy Night": "9anYIPKMtg7NqGbiy4",
+"Acoustic Pop": "-msVbZnpWLE4CpWBJo",
+"Hardcore": "OkN0EhmweNQdIEGkor"
+}
