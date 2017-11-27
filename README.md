@@ -101,6 +101,6 @@ clientID = "1234556"
 
 ## Reference
 1. [KKBOX developer site](https://developer.kkbox.com/#/)
-2. [KKBOX OPEN API doc](https://docs.kkbox.codes/docs)
+2. [KKBOX OPEN API doc](http://docs-en.kkbox.codes/docs)
 3. [Kotlin](https://kotlinlang.org/)
 
