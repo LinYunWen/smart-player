@@ -1,14 +1,12 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
 
-apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    buildToolsVersion '26.0.2'
     defaultConfig {
-        applicationId "com.kkbox.yunwenlin.smart_player"
+        applicationId "com.kkbox.yunwenlin.smart_speaker"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -24,14 +22,21 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    implementation 'com.squareup.okhttp:okhttp:2.5.0'
-    implementation 'com.koushikdutta.ion:ion:2.2.1'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(":OpenAPILibrary-debug")
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.koushikdutta.ion:ion:2.2.1'
     implementation "com.google.code.gson:gson:2.8.0"
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.scottyab:secure-preferences-lib:0.1.4'
+    testCompile 'junit:junit:4.12'
+    testImplementation 'org.json:json:20160810'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+}
+repositories {
+    mavenCentral()
 }
