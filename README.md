@@ -1,7 +1,7 @@
 # KKBOX OPEN API Example - Smart Player
 
 ## Screenshot
-![](https://i.imgur.com/4Tt8r9K.png =360x)
+<img src="https://i.imgur.com/4Tt8r9K.png" width="60%">
 
 ## Prerequirements
 1. [android studio](https://developer.android.com/studio/index.html) 2+ (3+ will be best)
