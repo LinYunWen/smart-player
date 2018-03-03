@@ -170,7 +170,7 @@ class Category {
                 "Alternative Rock" to arrayOf("另類搖滾"),
                 "British Rock" to arrayOf("英式搖滾"),
                 "Punk Rock" to arrayOf("龐克搖滾"),
-                "Soft Indie Pop" to arrayOf("清新", "自然", "乾淨"),
+                "Soft Indie Pop" to arrayOf("獨立", "硬地"),
                 "Great Rock Guitar" to arrayOf("吉他手"),
                 "60's & 70's Rock" to arrayOf("老搖滾", "60年代", "70年代"),
                 "Rock Ballad" to arrayOf("情歌", "精選情歌")
